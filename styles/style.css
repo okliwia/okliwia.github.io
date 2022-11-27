@@ -1,0 +1,90 @@
+body {
+    position: relative;
+}
+
+.card-title {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 1px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-text {
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    text-shadow: 3px 3px 1px black;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar-nav {
+    font-family: 'Poppins';
+}
+
+.nav-link:hover {
+    color:antiquewhite;
+    background-color: #8d6755;
+}
+
+.name {
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.place {
+    text-transform: uppercase;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+
+.date {
+    text-transform: uppercase;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+
+.lineup {
+    font-weight: bold;
+    font-family: 'Raleway';
+}
+
+a:link, a:visited {
+    background-color: #3b1b01;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: black;
+}
+
+.container {
+    background-color: white;
+    color: black;
+}
+
+.playlists-heading {
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Raleway';
+}
+
+footer {
+    font-family: 'Raleway';
+    font-size: 14px;
+}
